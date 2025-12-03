@@ -1,0 +1,67 @@
+.pag{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-image: url("/Princ.jpg");
+    height: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.video{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 450px;
+}
+.recetas{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    gap: 60px;
+    flex-wrap: wrap;
+    text-shadow: 0px 0px 0px black;
+}
+.contac{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    color: black;
+    text-shadow: 0px 0px 0px black;
+
+}
+.carousel-inner img {
+  width: 500px; 
+  height: auto; 
+  margin: 0 auto; 
+}
+.principio{
+    background-image: url("/Princ.jpg");
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 4px 4px 8px black;
+    font-size: 30px;
+    gap: 20px;
+}
+.accordion{
+    text-shadow: 0px 0px 0px black;
+}
+h5{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
