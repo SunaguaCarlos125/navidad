@@ -21,19 +21,19 @@ function App(){
                       <ul className="navbar-nav"  >
                         
                         <li className="nav-item">
-                          <Link className="nav-link" to="/">Inicio</Link>
+                          <Link className="nav-link" to="/navidad/">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" to="/historia">Historias</Link>
+                          <Link className="nav-link" to="/navidad/historia">Historias</Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" to="/canciones">Canciones Tematicas</Link>
+                          <Link className="nav-link" to="/navidad/canciones">Canciones Tematicas</Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link" to="/recetas">Recetas</Link>
+                          <Link className="nav-link" to="/navidad/recetas">Recetas</Link>
                         </li>                        
                         <li className="nav-item">
-                          <Link className="nav-link" to="/contacto">Contacto</Link>
+                          <Link className="nav-link" to="/navidad/contacto">Contacto</Link>
                         </li>
                       </ul>
                     </div>
@@ -50,11 +50,11 @@ function App(){
               <div className="contenido">
 
                   <Routes>
-                      <Route path='/' element={<Inicio/>}></Route>
-                      <Route path='/historia' element={<Historias/>}></Route>
-                      <Route path='/canciones' element={<Canciones/>}></Route>
-                      <Route path='/recetas' element={<Recetas/>}></Route>
-                      <Route path='/contacto' element={<Contacto/>}></Route>
+                      <Route path='/navidad/' element={<Inicio/>}></Route>
+                      <Route path='/navidad/historia' element={<Historias/>}></Route>
+                      <Route path='/navidad/canciones' element={<Canciones/>}></Route>
+                      <Route path='/navidad/recetas' element={<Recetas/>}></Route>
+                      <Route path='/navidad/contacto' element={<Contacto/>}></Route>
 
                   </Routes>
 
